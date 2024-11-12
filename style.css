@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C7872A;
+    
+}
+#hero {
+    background-color: lightgrey;
+    background-image:url(assets/sun-munch-illustration-original.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
+    padding: 5% 7%;
+    min-height: 500px;
+}
