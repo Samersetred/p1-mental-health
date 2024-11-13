@@ -6,15 +6,18 @@ Personal Project 1 - Somerset Dromgoole
 Link to the website: https://samersetred.github.io/p1-mental-health/
 
 Design Strategy
+
 Use the existing Mei Wong portfolio webpage, and tweak it for this project.
 
 Features:
+
 - Information about mental health issues
 - Links to official support for mental health issues
 - A contact form for reaching out if you are having issues
 
 
-Resources Used
+Resources Used:
+
 - HTML
 - CSS
 - Bootstrap: https://getbootstrap.com/
@@ -24,7 +27,7 @@ Resources Used
 - ChatGPT
 - 
 
-User Stories
+User Stories:
 
 As a User
 I want key mental health information to be easily accessible
@@ -40,10 +43,11 @@ I addressed by keeping the information close together
 
 
 
-Testing
+Testing:
+
 ![image](https://github.com/user-attachments/assets/88877654-6016-4b82-8d11-22d8184bb923)
 
-Design and Colour Scheme
+Design and Colour Scheme:
 
 ![image](https://github.com/user-attachments/assets/4ee0ec96-770b-4b1b-a6fd-4f3dfca91fc7)
 I chose Edvard Munch's The Sun as the key image of my hero because I think it is a calming image that sets a nice tone for the webpage. I generated the palette for the website from the painting so that I could maintain a consistent palette, aiming for a palette that evoked a sunrise, which I think is an encouraging theme for people going through mental health issues.
