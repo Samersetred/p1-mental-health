@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>You Can Save You</title>
+        <link rel="icon" type="image/x-icon" href="assets/emojione--sunrise.svg">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap CSS -->
@@ -16,9 +17,10 @@
     <body>
 
         / <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top" data-bs-theme="dark">
             <div class="container">
-              <a class="Mei Wong" href="index.html">You Can Save You</a>
+              <a class="navbar-brand" href="index.html">You Can Save You</a>
+              <img src="assets/emojione--sunrise.svg" alt="Sunrise Logo" width="30" height="24">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -27,20 +29,15 @@
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-    
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  </li>
-    
+                  </li>    
+                      
                   <li class="nav-item"></li>
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#understanding">Understanding Mental Health</a>
                   </li>
                   </li>
-    
+
                   <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
     
                 </ul>
@@ -79,7 +76,7 @@
                           For now, it’s enough to just be here, one small step at a time.
                         </p>
                     </div>
-                    <div>
+                    <div class ="understanding" id="understanding">
                       <h2>Understanding Mental Health</h2>
                       <p>
                         Mental health is a state of well-being in which an individual realizes their own abilities, can cope with the normal stresses of life, can work productively, and is able to make a contribution to their community. 
@@ -87,83 +84,271 @@
 
                       </p>
                       <h1>Common Mental Health Issues</h1>
-                      <div class="card">
-                        <div class="card-header">
-                          <h1>Depression</h1>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">What is Depression</h5>
-                          <p class="card-text">
-                            Depression is a mental health condition that goes beyond temporary sadness or feeling down. It’s a persistent state that affects a person’s thoughts, emotions, and physical well-being. 
-                            Depression can make it difficult to find enjoyment or motivation, even in things that used to bring happiness.
-                          </p>
+                      <div class="container">
+                        <div class="row">
+                        
+                          <!-- Depression Card -->
+
+                          <div class="col-md-6 d-flex">
+                            <div class="card flex-fill h-100">
+                              <div class="card-header">
+                                <h1>Depression</h1>
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">What is Depression?</h5>
+                                <p class="card-text">Depression is a mental health condition that goes beyond temporary sadness or feeling down. It’s a persistent state that affects a person’s thoughts, emotions, and physical well-being. Depression can make it difficult to find enjoyment or motivation, even in things that used to bring happiness.</p>
+                                <h3>Common Symptoms of Depression</h3>
+                                <ul>
+                                  <li>Feeling sad or hopeless</li>
+                                  <li>Loss of interest in activities</li>
+                                  <li>Changes in appetite or weight</li>
+                                  <li>Difficulty sleeping or oversleeping</li>
+                                  <li>Loss of energy or fatigue</li>
+                                  <li>Difficulty concentrating</li>
+                                  <li>Feelings of guilt or worthlessness</li>
+                                  <li>Thoughts of death or suicide</li>
+                                </ul>
+                                <p class="d-inline-flex gap-1">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Coping and Support
+                                  </a>
+                                  
+                                </p>
+                                <div class="collapse" id="collapseExample">
+                                  <div class="card card-body">
+                                    <ul>
+                                    <li> Seek professional help from a therapist or counselor.</li>
+<li>Engage in regular physical activity.</li>
+<li>Maintain a healthy diet and sleep routine.</li>
+<li>Stay connected with friends and family.</li>
+<li>Practice mindfulness and relaxation techniques.</li>
+                                    </ul>
+                                  </div>
+                                </div>
+
+
+                                <a href="https://www.nhsinform.scot/illnesses-and-conditions/mental-health/depression/" class="btn btn-primary " target="_blank">Further Information</a>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+                          <!-- Anxiety Card -->
+                          <div class="col-md-6 d-flex">
+                            <div class="card flex-fill h-100">
+                              <div class="card-header">
+                                <h1>Anxiety</h1>
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">What is Anxiety?</h5>
+                                <p class="card-text">Anxiety is a mental health condition characterized by excessive worry, fear, or nervousness. While occasional anxiety is normal, persistent anxiety can interfere with daily life, making it difficult to focus or relax.</p>
+                                <h3>Common Symptoms of Anxiety</h3>
+                                <ul>
+                                  <li>Constant worry or fear</li>
+                                  <li>Restlessness or feeling on edge</li>
+                                  <li>Increased heart rate</li>
+                                  <li>Difficulty concentrating</li>
+                                  <li>Trouble sleeping</li>
+                                  <li>Muscle tension</li>
+                                  <li>Feeling irritable</li>
+                                  <li>Avoiding situations that cause anxiety</li>
+                                </ul>
+                                <p class="d-inline-flex gap-1">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseAnxiety" role="button" aria-expanded="false" aria-controls="collapseAnxiety">
+                                      Coping and Support
+                                  </a>
+                              </p>
+                              <div class="collapse" id="collapseAnxiety">
+                                  <div class="card card-body">
+                                      <ul>
+                                          <li>Seek professional help from a therapist or counselor.</li>
+                                          <li>Practice deep breathing and relaxation exercises.</li>
+                                          <li>Limit caffeine and alcohol intake.</li>
+                                          <li>Engage in regular physical activity.</li>
+                                          <li>Stay connected with friends and family.</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                                
+                                <a href="https://www.nhsinform.scot/illnesses-and-conditions/mental-health/anxiety/" class="btn btn-primary target="_blank"">Further Information</a>
+                              </div>
+                            </div>
+                          </div>
                       
-                          <h3>Common Symptoms of Depression</h3>
-                          <ul>
-                            <li>Feeling sad or hopeless</li>
-                            <li>Loss of interest in activities</li>
-                            <li>Changes in appetite or weight</li>
-                            <li>Difficulty sleeping or oversleeping</li>
-                            <li>Loss of energy or fatigue</li>
-                            <li>Difficulty concentrating</li>
-                            <li>Feelings of guilt or worthlessness</li>
-                            <li>Thoughts of death or suicide</li>
-                          </ul>    
+                          <!-- Bipolar Disorder Card -->
+                          <div class="col-md-6 d-flex">
+                            <div class="card flex-fill h-100">
+                              <div class="card-header">
+                                <h1>Bipolar Disorder</h1>
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">What is Bipolar Disorder?</h5>
+                                <p class="card-text">Bipolar disorder is a mental health condition marked by extreme mood swings between emotional highs (mania) and lows (depression). These shifts can affect energy, behavior, and decision-making.</p>
+                                <h3>Common Symptoms of Bipolar Disorder</h3>
+                                <ul>
+                                  <li>Extreme mood swings</li>
+                                  <li>Periods of high energy or mania</li>
+                                  <li>Depressive episodes</li>
+                                  <li>Impulsivity and risk-taking behavior</li>
+                                  <li>Racing thoughts or speech</li>
+                                  <li>Loss of interest in activities during lows</li>
+                                  <li>Difficulty sleeping or oversleeping</li>
+                                  <li>Feelings of worthlessness or hopelessness</li>
+                                </ul>
+                                <p class="d-inline-flex gap-1">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseBipolar" role="button" aria-expanded="false" aria-controls="collapseBipolar">
+                                      Coping and Support
+                                  </a>
+                              </p>
+                              <div class="collapse" id="collapseBipolar">
+                                  <div class="card card-body">
+                                      <ul>
+                                          <li>Seek professional help from a therapist or psychiatrist.</li>
+                                          <li>Take medications as prescribed.</li>
+                                          <li>Maintain a regular routine.</li>
+                                          <li>Engage in regular physical activity.</li>
+                                          <li>Stay connected with friends and family.</li>
+                                          <li>Practice mindfulness and relaxation techniques.</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                                <a href="https://www.nhsinform.scot/illnesses-and-conditions/mental-health/bipolar-disorder/" class="btn btn-primary" target="_blank">Further Information</a>
+                              </div>
+                            </div>
+                          </div>
                       
-                          <a href="https://www.nhsinform.scot/illnesses-and-conditions/mental-health/depression/" class="btn btn-primary">Further Information</a>
+                          <!-- OCD Card -->
+                          <div class="col-md-6 d-flex">
+                            <div class="card flex-fill h-100">
+                              <div class="card-header">
+                                <h1>Obsessive-Compulsive Disorder (OCD)</h1>
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">What is OCD?</h5>
+                                <p class="card-text">OCD is a mental health disorder that causes repeated, unwanted thoughts (obsessions) and repetitive behaviors (compulsions). These behaviors are often performed to reduce distress or prevent a feared event.</p>
+                                <h3>Common Symptoms of OCD</h3>
+                                <ul>
+                                  <li>Intrusive thoughts or obsessions</li>
+                                  <li>Repetitive behaviors or rituals</li>
+                                  <li>Fear of contamination or germs</li>
+                                  <li>Excessive checking or counting</li>
+                                  <li>Difficulty tolerating uncertainty</li>
+                                  <li>Avoidance of situations that trigger obsessions</li>
+                                  <li>Distress if routines are disrupted</li>
+                                  <li>Fear of losing control</li>
+                                </ul>
+                                
+                                <p class="d-inline-flex gap-1">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseOCD" role="button" aria-expanded="false" aria-controls="collapseOCD">
+                                      Coping and Support
+                                  </a>
+                              </p>
+                              <div class="collapse" id="collapseOCD">
+                                  <div class="card card-body">
+                                      <ul>
+                                          <li>Seek professional help from a therapist or counselor.</li>
+                                          <li>Practice exposure and response prevention (ERP) therapy.</li>
+                                          <li>Take medications as prescribed.</li>
+                                          <li>Engage in regular physical activity.</li>
+                                          <li>Stay connected with friends and family.</li>
+                                          <li>Practice mindfulness and relaxation techniques.</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                                <a href="https://www.nhsinform.scot/illnesses-and-conditions/mental-health/obsessive-compulsive-disorder-ocd/" class="btn btn-primary" target="_blank">Further Information</a>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <!-- PTSD Card -->
+                          <div class="col-md-6 d-flex">
+                            <div class="card flex-fill h-100">
+                              <div class="card-header">
+                                <h1>Post-Traumatic Stress Disorder (PTSD)</h1>
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">What is PTSD?</h5>
+                                <p class="card-text">PTSD is a mental health condition triggered by experiencing or witnessing a traumatic event. People with PTSD may experience flashbacks, nightmares, and severe anxiety related to the event.</p>
+                                <h3>Common Symptoms of PTSD</h3>
+                                <ul>
+                                  <li>Flashbacks or intrusive memories</li>
+                                  <li>Nightmares related to trauma</li>
+                                  <li>Avoiding reminders of the trauma</li>
+                                  <li>Heightened startle response</li>
+                                  <li>Feeling detached or numb</li>
+                                  <li>Difficulty sleeping</li>
+                                  <li>Irritability or anger outbursts</li>
+                                  <li>Feelings of guilt or shame</li>
+                                </ul>
+                                <p class="d-inline-flex gap-1">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePTSD" role="button" aria-expanded="false" aria-controls="collapsePTSD">
+                                      Coping and Support
+                                  </a>
+                              </p>
+                              <div class="collapse" id="collapsePTSD">
+                                  <div class="card card-body">
+                                      <ul>
+                                          <li>Seek professional help from a therapist or counselor.</li>
+                                          <li>Practice grounding techniques to stay present.</li>
+                                          <li>Engage in regular physical activity.</li>
+                                          <li>Maintain a healthy diet and sleep routine.</li>
+                                          <li>Stay connected with friends and family.</li>
+                                          <li>Join a support group for individuals with PTSD.</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                                <a href="https://www.nhsinform.scot/illnesses-and-conditions/mental-health/post-traumatic-stress-disorder-ptsd/" class="btn btn-primary" target="_blank">Further Information</a>
+                              </div>
+                            </div>
+                          </div>
+                                            
+                      
+                          <!-- Eating Disorders Card -->
+                          <div class="col-md-6 d-flex">
+                            <div class="card flex-fill h-100">
+                              <div class="card-header">
+                                <h1>Eating Disorders</h1>
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">What is an Eating Disorder?</h5>
+                                <p class="card-text">Eating disorders are mental health conditions characterized by unhealthy relationships with food and body image. Common types include anorexia, bulimia, and binge-eating disorder, each affecting physical and emotional health.</p>
+                                <h3>Common Symptoms of Eating Disorders</h3>
+                                <ul>
+                                  <li>Preoccupation with food, weight, or body shape</li>
+                                  <li>Extreme restriction of food</li>
+                                  <li>Binge eating episodes</li>
+                                  <li>Purging behaviors, such as vomiting</li>
+                                  <li>Excessive exercise</li>
+                                  <li>Distorted body image</li>
+                                  <li>Feeling out of control around food</li>
+                                  <li>Physical health issues related to malnutrition</li>
+                                </ul>
+                                <p class="d-inline-flex gap-1">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseEatingDisorders" role="button" aria-expanded="false" aria-controls="collapseEatingDisorders">
+                                      Coping and Support
+                                  </a>
+                              </p>
+                              <div class="collapse" id="collapseEatingDisorders">
+                                  <div class="card card-body">
+                                      <ul>
+                                          <li>Seek professional help from a therapist or counselor.</li>
+                                          <li>Work with a nutritionist to develop a healthy eating plan.</li>
+                                          <li>Engage in regular physical activity.</li>
+                                          <li>Stay connected with friends and family.</li>
+                                          <li>Practice mindfulness and relaxation techniques.</li>
+                                          <li>Join a support group for individuals with eating disorders.</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                                <a href="https://www.nhsinform.scot/illnesses-and-conditions/mental-health/eating-disorders/" class="btn btn-primary" target="_blank">Further Information</a>
+                              </div>
+                            </div>
+                          </div>
+                      
                         </div>
-                      </div> 
+                      </div>
+                      
                 </div>
-            </section>
-            <!-- portfolio section starts here -->
-             <section id="portfolio" class="container">
-                <div class="row">
-                    <div class="col-12 text-center my-4">
-                    <h2 class="display-5">About Mei</h2>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="card mb-3 sharp-corners">
-                                <img src="assets/images/portfolio-images/wags-and-walks.webp" class="card-img-top" alt="A man walking several dogs early in the morning">
-                                <div class="card-body mb-3">
-                                  <h3 class="card-title">Wags and Walks</h3>
-                                  <p class="card-text">A platform for a dog walking service designed to fit the busy lifestyles of pet owners. Focused on promoting a healthy life for dogs, this site showcases convenient scheduling options and services.</p>
-                                  <a href="#" class="btn btn-outline-secondary">Visit Site</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="card mb-3 sharp-corners">
-                                <img src="assets/images/portfolio-images/we-wellness.webp" class="card-img-top" alt="A spa with candles towels and natural material">
-                                <div class="card-body mb-3">
-                                  <h3 class="card-title">We Wellness</h3>
-                                  <p class="card-text">A comprehensive platform offering a wide range of wellness services and high-end products. From yoga classes to nutritional guidance, users can find everything they need to nurture their body, mind, and spirit.</p>
-                                  <a href="#" class="btn btn-outline-secondary">Visit Site</a>
-                                </div>
-                                </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="card mb-3 sharp-corners">
-                                <img src="assets/images/portfolio-images/math-wiz.webp" class="card-img-top" alt="A child practicing math at a computer">
-                                <div class="card-body mb-3">
-                                  <h3 class="card-title">Math Wiz</h3>
-                                  <p class="card-text">An interactive website dedicated to helping kids master mathematics through games and challenges. Designed with young learners in mind, this platform turns complex problems into engaging activities.</p>
-                                  <a href="#" class="btn btn-outline-secondary">Visit Site</a>
-                                </div>
-                                </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="card mb-3 sharp-corners">
-                                <img src="assets/images/portfolio-images/bmi-calculator.webp" class="card-img-top" alt="Weighing scales seen from the first person view of the person standing on the scales">
-                                <div class="card-body mb-3">
-                                  <h3 class="card-title">BMI Calculator</h3>
-                                  <p class="card-text">Promoting a healthier lifestyle with an easy-to-use BMI Calculator. Designed to provide quick health assessments, this tool helps users understand and manage their body mass index with just a few clicks.</p>
-                                  <a href="#" class="btn btn-outline-secondary">Visit Site</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>       
-             </section>
-        </main>
         <footer id="contact" class="container">
           <div class="row justify-content-center sharp-corners">
               <div class="col-12 text-center my-4">
